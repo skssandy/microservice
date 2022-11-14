@@ -5,8 +5,7 @@ phases:
       nodejs: 16
   pre_build:
     commands:
-      - cd ./auth && sudo npm init
-      - cd ../gateway && sudo npm init
+      - echo Installing
   build:
     commands:
       - echo Build started on `date`
